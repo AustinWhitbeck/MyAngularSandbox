@@ -1,0 +1,24 @@
+<main>
+    <section>
+        <p>This example is showing how to work with a state and import buttons with attributes like props to pass the function from the component. </p>
+    </section>
+
+    <section>
+        <p>Count: {{ count }}</p>
+    </section>
+
+    <section>
+
+        <app-click-btn
+        text="Increase"
+        (btnClick)="increaseCount()"
+        >
+        </app-click-btn>
+
+        <app-click-btn
+        text="Decrease"
+        (btnClick)="decreaseCount()"
+        >
+        </app-click-btn>
+    </section>
+</main>

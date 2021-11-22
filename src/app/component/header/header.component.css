@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px;
+    width: 100%;
+
+    border-bottom-style: solid;
+
+    background-color: lightblue;
+    
+    
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+
+}

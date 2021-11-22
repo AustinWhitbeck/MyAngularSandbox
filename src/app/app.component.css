@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+
+.learningSection {
+    padding: 20px;
+    margin: 10px 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
