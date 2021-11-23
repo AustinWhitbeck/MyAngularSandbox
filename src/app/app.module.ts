@@ -8,6 +8,7 @@ import { CounterComponent } from './component/counter/counter.component';
 import { ClickBtnComponent } from './component/buttons/click-btn/click-btn.component';
 import { ColorclickersComponent } from './component/colorclickers/colorclickers.component';
 import { ColorclickerShapeComponent } from './component/colorclicker-shape/colorclicker-shape.component';
+import { CalculatorComponent } from './component/calculator/calculator.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { ColorclickerShapeComponent } from './component/colorclicker-shape/color
     ClickBtnComponent,
     ColorclickersComponent,
     ColorclickerShapeComponent,
+    CalculatorComponent,
   ],
   imports: [
     BrowserModule

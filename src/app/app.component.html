@@ -20,6 +20,12 @@
     >
     </app-click-btn>
 
+    <app-click-btn
+    text="Show Calculator"
+    (btnClick)="toggleShowCalc()"
+    >
+    </app-click-btn>
+
   </section>
 
   <section
@@ -41,6 +47,17 @@
     >
 
     </app-colorclickers>
+  </section>
+
+  <section
+    *ngIf="calculatorShow"
+    class="learningSection"
+  >
+    <app-calculator
+    
+    >
+
+    </app-calculator>
   </section>
 
 </body>

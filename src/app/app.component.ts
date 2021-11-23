@@ -11,6 +11,7 @@ export class AppComponent {
   loggedIn: boolean = true;
   counterShow: boolean = true;
   colorclickerShow: boolean = true;
+  calculatorShow: boolean = true;
 
 
   toggleShowCounter() {
@@ -21,5 +22,10 @@ export class AppComponent {
   toggleShowColor() {
     this.colorclickerShow = !this.colorclickerShow;
     console.log("toggle show color clicker log", this.colorclickerShow);
+  }
+
+  toggleShowCalc() {
+    this.calculatorShow = !this.calculatorShow;
+    console.log("toggle show calculator log", this.calculatorShow);
   }
 }
